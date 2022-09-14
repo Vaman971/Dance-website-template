@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#navbar{
+    background-color: rgba(247, 31, 31, 0.795);
+    padding: 6px 10px;
+    font-size: 30px;
+    top: 0px;
+    position: sticky;
+    /* margin: 25px; */
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    /* justify-content: center; */
+    font-family: 'Dongle', sans-serif;
+}
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+}
+#navbar li a:hover{
+    color: black;
+}
+#introSection{
+    font-family: 'Dongle', sans-serif;
+    padding-bottom: 40px;
+    background: center / cover no-repeat url("/static/bg.jpg");
+    height: 300px;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 56px;
+    flex-direction: column;
+
+}
+#introSection div.small{
+    font-size: 1.5rem;
+}
+#missionSection{
+height: 345px;
+background-color: seashell;
+}
+#missionSection h2{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 13px;
+    font-family: 'Dongle', sans-serif;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items:center;
+    justify-content: center;
+    margin: 0px 14px;
+    height: 42px;
+    margin-right: 40px;
+}
+#logo img{
+    height: 44px;
+    /* filter: invert(1); */
+}
+.card{
+    border: 2px
+    solid black;
+    border-radius: 10px;
+    width: 22%;
+    margin: auto 84px;
+    height: 210px;
+    display: inline-block;
+}
+.card h3{
+    text-align: center;
+    margin:12px ;
+    font-family: 'Dongle', sans-serif;
+    font-size: 25px;
+
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    display: block;
+    height: 100px;
+    padding: 0px 17px;
+    margin: 5px auto;
+}
+.card-img img{
+    height: inherit;
+
+}
+.card-content{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    bottom: 25px;
+}
+.card-content p{
+    font-size: 19px;
+}
+#sponsorsSection{
+    height: 300px;
+    background-color: yellowgreen;
+}
+#sponsorsSection h2{
+    text-align: center;
+    padding-top: 13px;
+    font-family: 'Dongle', sans-serif;
+}
+#sponsors{
+    height: 246px;
+    max-width: 1027px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.spImg{
+    height: 80%;
+    margin: 20px;
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    height: 60px;
+    font-size: 20px;
+    font-family: 'Dongle', sans-serif;
+}
